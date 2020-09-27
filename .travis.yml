@@ -1,2 +1,22 @@
 ---
+os: linux
+dist: bionic
 
+addons:
+  apt:
+    packages:
+      - make
+
+install:
+    - make install
+
+script:
+    - hugo
+
+deploy:
+    - provider: script
+      script:
+        - make deploy
+      skip_cleanup: true
+      on:
+        branch: master

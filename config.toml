@@ -1,7 +1,6 @@
 baseURL = "https://sugarraysam.github.io"
 languageCode = "en-us"
 theme = "aafu"
-publishDir = "docs"
 
 [params]
     title = "SugarRaySam"
