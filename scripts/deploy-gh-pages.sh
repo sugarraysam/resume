@@ -5,8 +5,7 @@ set -x
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-cd public
-
+# Travis CI/CD, use unpriviledged bot account
 if [ -n "${GITHUB_BOT_TOKEN}" ]; then
     touch ~/.git-credentials
     chmod 0600 ~/.git-credentials
@@ -17,6 +16,10 @@ if [ -n "${GITHUB_BOT_TOKEN}" ]; then
     git config user.name "sugarraysam-resume-bot"
 fi
 
+# make sure deploy directory exists
+mkdir -p public
+cd public
+
 git add .
-git commit -m "Rebuild site"
+git commit -m "Rebuild site" || true
 git push --force origin HEAD:master

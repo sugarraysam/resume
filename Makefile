@@ -7,4 +7,4 @@ install:
 
 .PHONY: deploy
 deploy:
-	@scripts/deploy-gh-pages.sh
+	@./scripts/deploy-gh-pages.sh
