@@ -1,4 +1,4 @@
-# Resume
+# Resume [![Build Status](https://travis-ci.com/sugarraysam/resume.svg?branch=master)](https://travis-ci.com/sugarraysam/resume)
 
 Generate my resume using [Hugo](https://gohugo.io/).
 
