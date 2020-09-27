@@ -1,5 +1,5 @@
 # Resume
 
-Generate a static website using [Zola](https://github.com/getzola/zola) Rust SSG.
+Generate a my resume using [Hugo](https://gohugo.io/).
 
-Published to Github Pages with https enabled.
+It uses the [Aafu theme](https://themes.gohugo.io/aafu/) and deploys to [Github Pages]https://gohugo.io/hosting-and-deployment/hosting-on-github/).
