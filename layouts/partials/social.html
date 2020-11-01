@@ -1,6 +1,8 @@
-<div class="m-0 p-0 text-center social">
+<div class="m-0 p-0 social">
   {{ range .social }}
-  <a class="p-2" href="{{ .link }}"><i class="{{ .icon }}"></i></a>
+  <h6>
+    <a href="{{ .link }}"><i class="{{ .icon }}"></i> {{ .text }}</a>
+  </h6>
   {{ end }}
   <hr>
 </div>

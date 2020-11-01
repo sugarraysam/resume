@@ -1,11 +1,15 @@
 <div>
-  <h1><i class="{{ .certs.icon }}"></i> {{ .certs.title }}</h1>
-  {{ range .certs.data }}
-  <h3>
-      <a href="{{ .certs.link }}">{{ .cert }}</a>
-  </h3>
-  <p>{{ .certs.institution }}</p>
-  <p>Obtained: {{ .certs.start }}</p>
-  <p>Expires: {{ .certs.end }}</p>
-  {{ end }}
+  <span class="accordion" style="cursor: pointer;">
+    <h1><i class="{{ .certs.icon }}"></i> {{ .certs.title }}</h1>
+  </span>
+  <div class="content">
+    {{ range .certs.data }}
+    <h3>
+      <a href="{{ .link }}">{{ .cert }}</a>
+    </h3>
+    <p>{{ .institution }}</p>
+    <p>Obtained: {{ .start }}</p>
+    <p>Expires: {{ .end }}</p>
+    {{ end }}
+  </div>
 </div>

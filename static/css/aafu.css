@@ -16,7 +16,6 @@ a:hover {
   color: var(--primaryLinks);
 }
 .social a {
-  font-size: 1.5em !important;
   color: var(--secondaryLinks);
 }
 .skillbar {
@@ -29,6 +28,7 @@ a:hover {
   height: 15px;
   transition: all 0.7s;
 }
-.shadow {
+.sidebar {
+  background-color: var(--sidebarBg);
   box-shadow: -4px -4px 5px 2px var(--shadow) !important;
 }

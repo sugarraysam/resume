@@ -7,7 +7,7 @@ install:
 
 .PHONY: dev
 dev:
-	@hugo server --noHTTPCache
+	@hugo server --noHTTPCache --ignoreCache
 
 .PHONY: deploy
 deploy:

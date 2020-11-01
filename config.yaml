@@ -8,7 +8,7 @@ params:
   # https://getbootstrap.com/docs/4.5/getting-started/introduction/
   jquery: 3.5.1
   bootstrap: 4.5.3
-  # dark, light, pinkish
+  # light, dark, pinkish
   theme: light
   partials:
     sidebar:

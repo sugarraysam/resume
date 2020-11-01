@@ -2,10 +2,11 @@
 # find icons on Font-Awesome
 # https://fontawesome.com/icons?d=gallery&m=free
 - icon: "far fa-lg fa-envelope"
+  text: "samuel.blaisdowdy@protonmail.com"
   link: "mailto:samuel.blaisdowdy@protonmail.com"
 - icon: "fab fa-lg fa-github"
+  text: github.com/sugarraysam
   link: https://github.com/sugarraysam
 - icon: "fab fa-lg fa-linkedin"
+  text: linkedin.com/in/sugarraysam
   link: https://linkedin.com/in/sugarraysam
-- icon: "fas fa-lg fa-infinity"
-  link: https://www.coursera.org/user/e3c14ec6d6f4d5028e265ddd41673a35

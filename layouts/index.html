@@ -1,8 +1,23 @@
 {{ define "header" }}
+<nav class="navbar navbar-light bg-light">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle text-capitalize" href="#" id="navbarDropdown" role="button"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {{ .Site.Params.theme }}
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Light</a>
+        <a class="dropdown-item" href="#">Dark</a>
+        <a class="dropdown-item" href="#">Pink</a>
+      </div>
+    </li>
+  </ul>
+</nav>
 {{ end }}
 
 {{ define "sidebar" }}
-<div class="shadow m-2 p-3 rounded">
+<div class="sidebar m-2 p-3 rounded">
   {{ $data := .Site.Data }}
   {{ range .Site.Params.partials.sidebar }}
   <div class="m-1 p-1">
@@ -21,7 +36,4 @@
   </div>
   {{ end }}
 </div>
-{{ end }}
-
-{{ define "footer" }}
 {{ end }}
