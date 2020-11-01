@@ -1,0 +1,29 @@
+---
+title: Certifications
+icon: "fas fa-award"
+data:
+  - cert: "Modern Robotics, Course 1: Foundations of Robot Motion"
+    institution: Coursera
+    link: https://www.coursera.org/account/accomplishments/certificate/XKRLBR3NHB2B
+    start: 10/2020
+    end: Never
+  - cert: "Applied Plotting, Charting & Data Representation in Python"
+    institution: Coursera
+    link: https://www.coursera.org/account/accomplishments/certificate/9MQT2E39AZD9
+    start: 04/2020
+    end: Never
+  - cert: "Introduction to Data Science in Python"
+    institution: Coursera
+    link: https://www.coursera.org/account/accomplishments/certificate/CXVWJQVRTRS2
+    start: 04/2020
+    end: Never
+  - cert: "LFCS: Linux Foundation Certified Systems Administrator"
+    institution: The Linux Foundation
+    link: https://www.youracclaim.com/badges/91b31815-ba46-471c-8771-3ddae89d0bf6/linked_in_profile
+    start: 11/2019
+    end: 11/2022
+  - cert: "Docker Certified Associate"
+    institution: "Docker Inc."
+    link: https://credentials.docker.com/bc30fb8a-d836-40ae-9cca-7eb644216151
+    start: 12/2019
+    end: 12/2021

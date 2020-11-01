@@ -1,0 +1,11 @@
+---
+title: Projects
+icon: "fas fa-project-diagram"
+ghuser: sugarraysam
+data:
+  - repo: archsugar
+    description: Bootstrap, provision and fully maintain an high-end modular archlinux system with Go & Ansible
+  - repo: rust-arduino-elegoo
+    description: Rewriting the Elegoo Super Starter Kit tutorials in Rust
+  - repo: resume
+    description: Generate and publish my resume with Hugo & Github Pages

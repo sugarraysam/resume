@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="{{ .Site.Params.author }}">
+  <meta description="{{ .Site.Params.description }}">
+  <title>{{ .Site.Title }}</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@{{ .Site.Params.bootstrap }}/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- Aafu CSS colors -->
+  <link rel="stylesheet" href="{{ print `/css/aafu_` .Site.Params.theme `.css` | relURL }}" />
+  <link rel="stylesheet" href="{{ `/css/aafu.css` | relURL }}" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="row">
+        <div class="col-md-12">
+          {{ block "header" . }}
+          {{ end }}
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="row">
+        <div class="col-md-4">
+          {{ block "sidebar" . }}
+          {{ end }}
+        </div>
+        <div class="col-md-8">
+          {{ block "main" . }}
+          {{ end }}
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="row">
+        <div class="col-md-12">
+          {{ block "footer" . }}
+          {{ end }}
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-{{ .Site.Params.jquery }}.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@{{ .Site.Params.bootstrap }}/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/9c3f7c52b1.js" crossorigin="anonymous"></script>
+  <!-- Github buttons -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+
+</html>

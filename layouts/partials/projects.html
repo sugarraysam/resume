@@ -1,0 +1,14 @@
+<div>
+  <h1><i class="{{ .projects.icon }}"></i> {{ .projects.title }}</h1>
+  {{ $ghuser := .projects.ghuser }}
+  {{ range .projects.data }}
+  <h3>
+      <!-- Github stars -->
+      <a class="github-button" href="https://github.com/{{ $ghuser }}/{{ .repo }}" data-icon="octicon-star"
+          data-show-count="true" aria-label="Star {{ $ghuser }}/{{ .repo }} on GitHub">Star</a>
+      <!-- Link to repo -->
+      <a href="https://github.com/{{ $ghuser }}/{{ .repo }}">{{ .repo }}</a>
+  </h3>
+  <p>{{ .description }}</p>
+  {{ end }}
+</div>

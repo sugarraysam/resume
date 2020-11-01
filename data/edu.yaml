@@ -1,0 +1,12 @@
+---
+title: Education
+icon: "fas fa-graduation-cap"
+data:
+  - degree: B.A. in Computer Science and Mathematics
+    university: University of Montreal
+    start: 2015
+    end: 2018
+  - degree: B.A. in Accounting
+    university: University of Quebec in Abitibi-Temiscamingue
+    start: 2012
+    end: 2015

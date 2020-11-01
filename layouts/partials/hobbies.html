@@ -1,0 +1,6 @@
+<div>
+  <h1><i class="{{ .hobbies.icon }}"></i> {{ .hobbies.title }}</h1>
+  {{ range .hobbies.data }}
+  <p>{{ . }}</p>
+  {{ end }}
+</div>

@@ -1,0 +1,13 @@
+<div>
+  <h1><i class="{{ .exp.icon }}"></i> {{ .exp.title }}</h1>
+  {{ range .exp.data }}
+  <h3>{{ .position }} - {{ .company }}</h3>
+  <p>Start: {{ .start }}</p>
+  <p>End: {{ .end }}</p>
+  <ul>
+    {{ range .description }}
+    <li>{{ . }}</li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</div>

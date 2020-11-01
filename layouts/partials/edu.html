@@ -1,0 +1,7 @@
+<div>
+  <h1><i class="{{ .edu.icon }}"></i> {{ .edu.title }}</h1>
+  {{ range .edu.data }}
+  <h3>{{ .degree }}</h3>
+  <p>{{ .start }}-{{ .end }} - {{ .university }}</p>
+  {{ end }}
+</div>

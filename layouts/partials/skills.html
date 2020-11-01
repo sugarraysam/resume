@@ -1,0 +1,17 @@
+<div>
+  <h1><i class="{{ .skills.icon }}"></i> {{ .skills.title }}</h1>
+  {{ range .skills.data }}
+  <p>
+      {{ range $i, $v := .skills }}
+      {{ if eq $v.type "icon" }}
+      <i class="{{ $v.value }}"></i>
+      {{ else }}
+      {{ $v.value }}
+      {{ end }}
+      {{ end }}
+  </p>
+  <div class="skillbar">
+      <div id="skill-percent" style="width: {{ .proficiency }}%"></div>
+  </div>
+  {{ end }}
+</div>

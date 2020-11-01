@@ -1,0 +1,46 @@
+---
+title: Skills
+icon: "fas fa-toolbox"
+data:
+  - proficiency: 90
+    skills:
+      - type: icon
+        value: "fab fa-linux"
+      - type: text
+        value: Go
+      - type: icon
+        value: "fab fa-docker"
+      - type: text
+        value: Bash
+      - type: icon
+        value: "fab fa-git"
+      - type: icon
+        value: "fab fa-python"
+  - proficiency: 80
+    skills:
+      - type: text
+        value: Kubernetes
+      - type: icon
+        value: "fab fa-gitlab"
+      - type: text
+        value: Makefile
+      - type: text
+        value: Ansible
+  - proficiency: 70
+    skills:
+      - type: text
+        value: gRPC
+      - type: text
+        value: Microservices Design Patterns
+  - proficiency: 50
+    skills:
+      - type: icon
+        value: "fab fa-rust"
+      - type: text
+        value: GraphQL
+  - proficiency: 30
+    skills:
+      - type: text
+        value: Robotics
+      - type: text
+        value: Arduino

@@ -1,0 +1,10 @@
+---
+title: Languages
+icon: "fas fa-language"
+data:
+  - name: French
+    level: Native
+  - name: English
+    level: Fluent
+  - name: Spanish
+    level: Intermediate
