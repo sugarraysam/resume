@@ -4,8 +4,8 @@ $(function () {
     changeTheme($(this).text().toLowerCase());
   });
 
-  // hide all content div (default)
-  $(".content").hide();
+  // hide all content div (default) && add left indentation
+  $(".content").hide().addClass("pl-2");
 
   // toggle active content
   $(".content.active").toggle();
@@ -18,5 +18,5 @@ $(function () {
 
 function changeTheme(theme) {
   $("#theme").attr("href", "./css/aafu_" + theme + ".css")
-  $('#navbarDropdown').text(theme);
+  $('#themeDropdown').text(theme);
 }

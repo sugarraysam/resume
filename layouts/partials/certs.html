@@ -4,9 +4,9 @@
   </span>
   <div class="content">
     {{ range .certs.data }}
-    <h3>
+    <h4>
       <a href="{{ .link }}">{{ .cert }}</a>
-    </h3>
+    </h4>
     <p>{{ .institution }}</p>
     <p>Obtained: {{ .start }}</p>
     <p>Expires: {{ .end }}</p>

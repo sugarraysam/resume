@@ -29,6 +29,6 @@ a:hover {
   transition: all 0.7s;
 }
 .sidebar {
-  background-color: var(--sidebarBg);
+  background-color: var(--secondaryBg);
   box-shadow: -4px -4px 5px 2px var(--shadow) !important;
 }

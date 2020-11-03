@@ -14,12 +14,12 @@ params:
     sidebar:
       - tagline
       - social
-      - lang
       - skills
-      - hobbies
+      - lang
     main:
       - about
       - projects
       - exp
       - edu
       - certs
+      - hobbies

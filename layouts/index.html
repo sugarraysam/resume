@@ -1,19 +1,18 @@
 {{ define "header" }}
-<nav class="navbar navbar-light bg-light">
-  <ul class="navbar-nav mr-auto">
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle text-capitalize" href="#" id="navbarDropdown" role="button"
-        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        {{ .Site.Params.theme }}
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="#">Light</a>
-        <a class="dropdown-item" href="#">Dark</a>
-        <a class="dropdown-item" href="#">Pink</a>
-      </div>
-    </li>
-  </ul>
-</nav>
+<div class="dropdown text-right">
+  <button class="btn btn-primary" type="button">
+    Download PDF
+  </button>
+  <button class="btn btn-secondary dropdown-toggle text-capitalize" type="button" id="themeDropdown"
+    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    {{ .Site.Params.theme }}
+  </button>
+  <div class="dropdown-menu" aria-labelledby="themeDropdown">
+    <a class="dropdown-item" href="#">Light</a>
+    <a class="dropdown-item" href="#">Dark</a>
+    <a class="dropdown-item" href="#">Pink</a>
+  </div>
+</div>
 {{ end }}
 
 {{ define "sidebar" }}
