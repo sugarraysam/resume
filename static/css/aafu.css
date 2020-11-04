@@ -13,10 +13,10 @@ h4 {
 }
 a,
 a:hover {
-  color: var(--primaryLinks);
-}
-.social a {
   color: var(--secondaryLinks);
+}
+a {
+  color: var(--primaryLinks);
 }
 .skillbar {
   background-color: var(--primaryBg);
@@ -31,4 +31,22 @@ a:hover {
 .sidebar {
   background-color: var(--secondaryBg);
   box-shadow: -4px -4px 5px 2px var(--shadow) !important;
+}
+.btn-primary,
+.dropdown-menu {
+  background-color: var(--secondaryBg);
+  color: var(--primaryLinks);
+  border-color: var(--primaryLinks);
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.dropdown-item:hover {
+  background-color: var(--secondaryLinks);
+  color: var(--secondaryText);
+  border-color: var(--primaryLinks);
+  box-shadow: none;
+}
+.dropdown-item {
+  color: var(--primaryLinks);
 }

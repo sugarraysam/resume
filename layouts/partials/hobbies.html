@@ -1,10 +1,6 @@
 <div>
-  <span class="accordion" style="cursor: pointer;">
-    <h1><i class="{{ .hobbies.icon }}"></i> {{ .hobbies.title }}</h1>
-  </span>
-  <div class="content">
-    {{ range .hobbies.data }}
-    <p>{{ . }}</p>
-    {{ end }}
-  </div>
+  <h1><i class="{{ .hobbies.icon }}"></i> {{ .hobbies.title }}</h1>
+  {{ range .hobbies.data }}
+  <p>{{ . }}</p>
+  {{ end }}
 </div>

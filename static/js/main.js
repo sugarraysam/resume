@@ -14,9 +14,20 @@ $(function () {
   $(".accordion").click(function (e) {
     $(this).next(".content").toggle();
   });
+
+  // download pdf onclick event
+  $("#pdfButton").click(function (e) {
+    e.preventDefault();
+    window.location.href = "./static/pdf/resume.pdf"
+  })
 });
 
 function changeTheme(theme) {
   $("#theme").attr("href", "./css/aafu_" + theme + ".css")
   $('#themeDropdown').text(theme);
+}
+
+function prepareToPrintPDF() {
+  $(".btn-primary").toggle();
+  $(".content").show();
 }

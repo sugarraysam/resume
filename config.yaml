@@ -16,10 +16,10 @@ params:
       - social
       - skills
       - lang
+      - hobbies
     main:
       - about
       - projects
       - exp
       - edu
       - certs
-      - hobbies

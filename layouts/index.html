@@ -1,16 +1,18 @@
 {{ define "header" }}
-<div class="dropdown text-right">
-  <button class="btn btn-primary" type="button">
-    Download PDF
+<div class="text-right">
+  <button id="pdfButton" class="btn btn-primary" type="button">
+    <i class="fas fa-download"></i> Download PDF</a>
   </button>
-  <button class="btn btn-secondary dropdown-toggle text-capitalize" type="button" id="themeDropdown"
-    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    {{ .Site.Params.theme }}
-  </button>
-  <div class="dropdown-menu" aria-labelledby="themeDropdown">
-    <a class="dropdown-item" href="#">Light</a>
-    <a class="dropdown-item" href="#">Dark</a>
-    <a class="dropdown-item" href="#">Pink</a>
+  <div class="btn-group">
+    <button id="themeDropdown" type="button" class="btn btn-primary dropdown-toggle text-capitalize"
+      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      {{ .Site.Params.theme }}
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Light</a>
+      <a class="dropdown-item" href="#">Dark</a>
+      <a class="dropdown-item" href="#">Pink</a>
+    </div>
   </div>
 </div>
 {{ end }}
