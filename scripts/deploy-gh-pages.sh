@@ -11,6 +11,8 @@ if [ ! -d "public" ]; then
     exit 1
 fi
 
+cd public
+
 # Travis CI/CD, use unpriviledged bot account
 if [ -n "${GITHUB_BOT_TOKEN}" ]; then
     touch ~/.git-credentials
