@@ -15,10 +15,11 @@ $(function () {
     $(this).next(".content").toggle();
   });
 
-  // download pdf onclick event
   $("#pdfButton").click(function (e) {
     e.preventDefault();
-    window.location.href = "./static/pdf/resume.pdf"
+    theme = $('#themeDropdown').text().trim();
+    console.log(theme);
+    window.location.href = "/pdf/resume_" + theme + ".pdf"
   })
 });
 

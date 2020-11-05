@@ -8,18 +8,18 @@ params:
   # https://getbootstrap.com/docs/4.5/getting-started/introduction/
   jquery: 3.5.1
   bootstrap: 4.5.3
-  # light, dark, pinkish
+  # light, dark, pink
   theme: light
   partials:
     sidebar:
       - tagline
       - social
-      - skills
       - lang
       - hobbies
     main:
       - about
       - projects
+      - skills
       - exp
       - edu
       - certs

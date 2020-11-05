@@ -1,17 +1,17 @@
 <div>
-  <h1><i class="{{ .skills.icon }}"></i> {{ .skills.title }}</h1>
-  {{ range .skills.data }}
-  <p>
+  <span class="accordion" style="cursor: pointer;">
+    <h1 class="accordion"><i class="{{ .skills.icon }}"></i> {{ .skills.title }}</h1>
+  </span>
+  <div class="content active">
+    {{ range .skills.data }}
+    <div class="m-1">
       {{ range $i, $v := .skills }}
-      {{ if eq $v.type "icon" }}
-      <i class="{{ $v.value }}"></i>
-      {{ else }}
-      {{ $v.value }}
+      <span class="p-2"><i class="{{ $v.icon }}"></i>{{ $v.text }}</span>
       {{ end }}
-      {{ end }}
-  </p>
-  <div class="skillbar">
+    </div>
+    <div class="skillbar">
       <div id="skill-percent" style="width: {{ .proficiency }}%"></div>
+    </div>
+    {{ end }}
   </div>
-  {{ end }}
 </div>

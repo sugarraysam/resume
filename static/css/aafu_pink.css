@@ -1,9 +1,9 @@
 :root {
   --primaryBg: #f8f9fa;
   --primaryText: black;
-  --primaryLinks: #81415f;
-  --secondaryBg: #81415f;
+  --primaryLinks: #4e273a;
+  --secondaryBg: #e3c6d3;
   --secondaryText: white;
-  --secondaryLinks: #ffc107;
+  --secondaryLinks: #81415f;
   --shadow: #595659;
 }

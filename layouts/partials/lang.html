@@ -1,7 +1,6 @@
-<div>
+<div class="lead">
   <h1><i class="{{ .lang.icon }}"></i> {{ .lang.title }}</h1>
   {{ range .lang.data }}
-  {{ .name }} :: {{ .level }}
-  <br>
+  <span class="p-3"><i class="{{ .icon }}"></i> {{ .name }} - {{ .level }}</span><br>
   {{ end }}
 </div>

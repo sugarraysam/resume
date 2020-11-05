@@ -40,7 +40,6 @@ a {
 }
 .btn-primary:hover,
 .btn-primary:focus,
-.btn-primary:active,
 .dropdown-item:hover {
   background-color: var(--secondaryLinks);
   color: var(--secondaryText);

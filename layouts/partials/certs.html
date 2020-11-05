@@ -4,12 +4,11 @@
   </span>
   <div class="content">
     {{ range .certs.data }}
-    <h4>
-      <a href="{{ .link }}">{{ .cert }}</a>
-    </h4>
-    <p>{{ .institution }}</p>
-    <p>Obtained: {{ .start }}</p>
-    <p>Expires: {{ .end }}</p>
+    <h5><strong><a href="{{ .link }}">{{ .cert }}</a></strong></h5>
+    <p class="pl-1">
+      {{ .institution }}<br>
+      Issued {{ .start }} &middot; Expires {{ .end }}<br>
+    </p>
     {{ end }}
   </div>
 </div>

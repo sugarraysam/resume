@@ -4,9 +4,8 @@
   </span>
   <div class="content">
     {{ range .exp.data }}
-    <h4>{{ .position }} - {{ .company }}</h4>
-    <p>Start: {{ .start }}</p>
-    <p>End: {{ .end }}</p>
+    <h5><strong>{{ .position }} - {{ .company }}</strong></h5>
+    <p><i>{{ .start }} - {{ .end }} &middot; {{ .months }} months</i></p>
     <ul>
       {{ range .description }}
       <li>{{ . }}</li>

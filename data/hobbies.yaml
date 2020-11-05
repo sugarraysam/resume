@@ -2,9 +2,15 @@
 title: Hobbies
 icon: "fas fa-gamepad"
 data:
-  - "\U0001f4bb Programming"
-  - "\U0001f3d2 Ice Hockey"
-  - "\U0001f916 Robotics"
-  - "\U0001f3be Tennis"
-  - "\U0001f37a Microbrewery Hunting"
-  - "\U0001f3cb Working Out"
+  - text: Programming
+    icon: "fas fa-laptop-code"
+  - text: Ice Hockey
+    icon: "fas fa-hockey-puck"
+  - text: Robotics
+    icon: "fas fa-robot"
+  - text: Tennis
+    icon: "fas fa-table-tennis"
+  - text: Microbreweries
+    icon: "fas fa-beer"
+  - text: "Working Out"
+    icon: "fas fa-dumbbell"
