@@ -1,0 +1,17 @@
+<div>
+  <span class="accordion" style="cursor: pointer;">
+    <h1 class="accordion"><i class="{{ .skills.icon }}"></i> {{ .skills.title }}</h1>
+  </span>
+  <div class="content active">
+    {{ range .skills.data }}
+    <div class="m-1">
+      {{ range $i, $v := .skills }}
+      <span class="p-2"><i class="{{ $v.icon }}"></i>{{ $v.text }}</span>
+      {{ end }}
+    </div>
+    <div class="skillbar">
+      <div id="skill-percent" style="width: {{ .proficiency }}%"></div>
+    </div>
+    {{ end }}
+  </div>
+</div>

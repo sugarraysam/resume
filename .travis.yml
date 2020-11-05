@@ -8,15 +8,16 @@ addons:
       - make
 
 install:
-    - make install
+  - make install
 
+# always make sure hugo can compile the website
 script:
-    - hugo
+  - hugo
 
 deploy:
-    - provider: script
-      script:
-        - make deploy
-      skip_cleanup: true
-      on:
-        branch: master
+  - provider: script
+    script:
+      - make deploy
+    skip_cleanup: true
+    on:
+      branch: master

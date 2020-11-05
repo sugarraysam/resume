@@ -1,0 +1,25 @@
+---
+baseURL: https://sugarraysam.github.io
+title: "SugarRaySam"
+params:
+  author: "sugarraysam"
+  description: "Resume of sugarraysam"
+  # Upgrade verstions by looking here
+  # https://getbootstrap.com/docs/4.5/getting-started/introduction/
+  jquery: 3.5.1
+  bootstrap: 4.5.3
+  # light, dark, pink
+  theme: light
+  partials:
+    sidebar:
+      - tagline
+      - social
+      - lang
+      - hobbies
+    main:
+      - about
+      - projects
+      - skills
+      - exp
+      - edu
+      - certs

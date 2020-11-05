@@ -5,9 +5,11 @@ set -x
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-# make sure deploy directory exists
-mkdir -p public
-cd public
+# make sure public was created
+if [ ! -d "public" ]; then
+    echo "You need to run '$ hugo' to compile the website in 'public/'..."
+    exit 1
+fi
 
 # Travis CI/CD, use unpriviledged bot account
 if [ -n "${GITHUB_BOT_TOKEN}" ]; then

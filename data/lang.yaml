@@ -1,0 +1,13 @@
+---
+title: Languages
+icon: "fas fa-language"
+data:
+  - name: French
+    level: Native
+    icon: "fab fa-canadian-maple-leaf"
+  - name: English
+    level: Fluent
+    icon: "fas fa-flag-usa"
+  - name: Spanish
+    level: Intermediate
+    icon: "fas fa-pepper-hot"

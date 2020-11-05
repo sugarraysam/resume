@@ -1,0 +1,6 @@
+<div class="lead">
+  <h1><i class="{{ .hobbies.icon }}"></i> {{ .hobbies.title }}</h1>
+  {{ range .hobbies.data }}
+  <span class="p-3"><i class="{{ .icon }}"></i> {{ .text }}</span><br>
+  {{ end }}
+</div>

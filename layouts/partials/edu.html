@@ -1,0 +1,11 @@
+<div>
+  <span class="accordion" style="cursor: pointer;">
+    <h1 class="accordion"><i class="{{ .edu.icon }}"></i> {{ .edu.title }}</h1>
+  </span>
+  <div class="content">
+    {{ range .edu.data }}
+    <h5><strong>{{ .degree }}</strong></h5>
+    <p>{{ .start }}-{{ .end }} - {{ .university }}</p>
+    {{ end }}
+  </div>
+</div>

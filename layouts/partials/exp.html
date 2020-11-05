@@ -1,0 +1,16 @@
+<div>
+  <span class="accordion" style="cursor: pointer;">
+    <h1 class="accordion"><i class="{{ .exp.icon }}"></i> {{ .exp.title }}</h1>
+  </span>
+  <div class="content">
+    {{ range .exp.data }}
+    <h5><strong>{{ .position }} - {{ .company }}</strong></h5>
+    <p><i>{{ .start }} - {{ .end }} &middot; {{ .months }} months</i></p>
+    <ul>
+      {{ range .description }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+</div>

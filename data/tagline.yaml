@@ -1,0 +1,11 @@
+---
+name: "Samuel Blais-Dowdy"
+title: "DevOps Engineer at Epic"
+quote: "I will code you the moon"
+photo:
+  path: "./images/photo.jpg"
+  alt: "Picture taken on Epic Campus, with a beautiful willow tree in the background."
+location:
+  icon: "fas fa-lg fa-map-marker-alt"
+  value: "Madison, WI, USA"
+  link: "https://www.google.com/maps/place/Madison,+WI/@43.0849081,-89.5465041,11z/data=!3m1!4b1!4m5!3m4!1s0x8806536d3a2019ff:0x4e0cfcb5ba484198!8m2!3d43.0730517!4d-89.4012302?hl=en"

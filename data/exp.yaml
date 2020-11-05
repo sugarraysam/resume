@@ -1,0 +1,48 @@
+---
+title: Experience
+icon: "fas fa-briefcase"
+data:
+  # --- DevOps @ Epic ---
+  - position: DevOps Engineer
+    company: Epic
+    start: 08/2020
+    end: Present
+    months: 3
+    description:
+      - Maintain, deploy and monitor kubernetes clusters
+      - Help developers with their Go microservices projects, by providing advice, best practice tips and doing pair programming
+      - Lead project to integrate k8s monitoring and logging with Splunk ITSI
+      - HTTP microservices development in Go
+  # --- DevOps @ Bell ---
+  - position: DevOps Engineer
+    company: Bell Canada
+    start: 05/2019
+    end: 03/2020
+    months: 10
+    description:
+      - Delivered a pipeline for a monolithic Django web application using Gitlab CI, Ansible roles and systemd services
+      - Delivered a pipeline and helped to migrate the Django monolith to a microservices architecture, using Go, Gitlab CI, docker swarm and Ansible roles
+      - Performed production shutdown maintenance
+      - Configured alpine containers for production
+  # --- Security Analyst @ Bell ---
+  - position: Security Analyst
+    company: Bell Canada
+    start: 05/2018
+    end: 05/2019
+    months: 12
+    description:
+      - Performed analysis and escalation of security threats in collaboration with Senior Security Analysts
+      - Participated in high-impact cybersecurity incident response and wrote report for management
+      - Helped improve our Use Cases by providing feedback to Threat Hunters
+      - Used Arcsight SIEM along with other security tools (Nmap, traceroute, OpenSSL, Wireshark, F5 WAF, vendor dashboards, Radware, Arbor, etc)
+  # --- Teaching Assistant @ UdeM ---
+  - position: Teaching Assistant
+    company: University of Montreal
+    start: 01/2018
+    end: 05/2018
+    months: 3
+    description:
+      - Prepared weekly cybersecurity labs for graduate and undergraduate students
+      - Gave two lectures on symmetric/assymetric cryptography
+      - Helped student perform a full exploitation of a Vulnhub VM, from fingerprinting, to exploiting a PHP server, and finishing with Linux privilege escalation
+      - Demonstrated and explained popular security tools

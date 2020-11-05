@@ -1,0 +1,14 @@
+<div>
+  <span class="accordion" style="cursor: pointer;">
+    <h1><i class="{{ .certs.icon }}"></i> {{ .certs.title }}</h1>
+  </span>
+  <div class="content">
+    {{ range .certs.data }}
+    <h5><strong><a href="{{ .link }}">{{ .cert }}</a></strong></h5>
+    <p class="pl-1">
+      {{ .institution }}<br>
+      Issued {{ .start }} &middot; Expires {{ .end }}<br>
+    </p>
+    {{ end }}
+  </div>
+</div>

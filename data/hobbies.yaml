@@ -1,0 +1,16 @@
+---
+title: Hobbies
+icon: "fas fa-gamepad"
+data:
+  - text: Programming
+    icon: "fas fa-laptop-code"
+  - text: Ice Hockey
+    icon: "fas fa-hockey-puck"
+  - text: Robotics
+    icon: "fas fa-robot"
+  - text: Tennis
+    icon: "fas fa-table-tennis"
+  - text: Microbreweries
+    icon: "fas fa-beer"
+  - text: "Working Out"
+    icon: "fas fa-dumbbell"
