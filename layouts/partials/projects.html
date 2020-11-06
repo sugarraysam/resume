@@ -1,16 +1,17 @@
 <div>
-  <span class="accordion" style="cursor: pointer;">
-    <h1 class="accordion"><i class="{{ .projects.icon }}"></i> {{ .projects.title }}</h1>
+  <span class="accordion">
+    <h1><i class="{{ .projects.icon }}"></i> {{ .projects.title }}</h1>
   </span>
-  <div class="content active">
+  <div class="content">
     {{ $ghuser := .projects.ghuser }}
     {{ range .projects.data }}
     <h4>
       <!-- Github stars -->
-      <a class="github-button" href="https://github.com/{{ $ghuser }}/{{ .repo }}" data-icon="octicon-star"
-        data-show-count="true" aria-label="Star {{ $ghuser }}/{{ .repo }} on GitHub">Star</a>
+      <span class="github-button-wrapper"><a class="github-button" href="https://github.com/{{ $ghuser }}/{{ .repo }}"
+          data-icon="octicon-star" data-show-count="true"
+          aria-label="Star {{ $ghuser }}/{{ .repo }} on GitHub">Star</a></span>
       <!-- Link to repo -->
-      <a href="https://github.com/{{ $ghuser }}/{{ .repo }}">{{ .repo }}</a>
+      <a href="https://github.com/{{ $ghuser }}/{{ .repo }}">{{ humanize .repo }}</a>
     </h4>
     <p>{{ .description }}</p>
     {{ end }}

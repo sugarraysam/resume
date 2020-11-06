@@ -8,4 +8,4 @@ data:
   - repo: rust-arduino-elegoo
     description: Rewriting the Elegoo Super Starter Kit tutorials in Rust
   - repo: resume
-    description: Generate and publish my resume with Hugo & Github Pages
+    description: Generate and publish my resume with Hugo, Bootstrap, jQuery, Font Awesome and Github Pages.

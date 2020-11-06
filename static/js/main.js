@@ -31,4 +31,6 @@ function changeTheme(theme) {
 function prepareToPrintPDF() {
   $(".btn-primary").toggle();
   $(".content").show();
+  $(".send-to-footer").appendTo("#footer");
+  $(".github-button-wrapper").hide();
 }
