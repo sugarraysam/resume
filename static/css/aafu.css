@@ -49,3 +49,9 @@ a {
 .dropdown-item {
   color: var(--primaryLinks);
 }
+.accordion {
+  cursor: pointer;
+}
+.accordion:hover {
+  color: var(--primaryLinks);
+}
