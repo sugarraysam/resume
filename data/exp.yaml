@@ -9,10 +9,10 @@ data:
     end: Present
     months: 3
     description:
-      - Maintain, deploy and monitor kubernetes clusters
-      - Help developers with their Go microservices projects, by providing advice, best practice tips and doing pair programming
+      - Maintain and troubleshoot k3s kubernetes clusters using RKE and Rancher
+      - Develop and deploy HTTP Go microservices on kubernetes, using helm and docker
+      - Monitor kubernetes cluster and applications using Prometheus, Grafana and Splunk
       - Lead project to integrate k8s monitoring and logging with Splunk ITSI
-      - HTTP microservices development in Go
   # --- DevOps @ Bell ---
   - position: DevOps Engineer
     company: Bell Canada

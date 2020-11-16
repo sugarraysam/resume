@@ -2,6 +2,16 @@
 title: Certifications
 icon: "fas fa-award"
 data:
+  - cert: "CKA: Certified Kubernetes Administrator"
+    institution: The Linux Foundation
+    link: https://www.youracclaim.com/badges/e41d948f-d491-45d7-a173-bfb131bdd324
+    start: 11/2020
+    end: 11/2023
+  - cert: "Modern Robotics, Course 2: Robot Kinematics"
+    institution: Coursera
+    link: https://www.coursera.org/account/accomplishments/certificate/9WJUFXJRCJBC
+    start: 11/2020
+    end: Never
   - cert: "Modern Robotics, Course 1: Foundations of Robot Motion"
     institution: Coursera
     link: https://www.coursera.org/account/accomplishments/certificate/XKRLBR3NHB2B
