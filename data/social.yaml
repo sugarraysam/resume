@@ -4,6 +4,9 @@
 - icon: "far fa-lg fa-envelope"
   text: "samuel.blaisdowdy@protonmail.com"
   link: "mailto:samuel.blaisdowdy@protonmail.com"
+- icon: "fas fa-link"
+  text: sugarraysam.github.io
+  link: https://sugarraysam.github.io
 - icon: "fab fa-lg fa-github"
   text: github.com/sugarraysam
   link: https://github.com/sugarraysam

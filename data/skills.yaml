@@ -44,3 +44,5 @@ data:
         text: Robotics
       - icon: "fas fa-microchip"
         text: Arduino
+      - icon: "fas fa-brain"
+        text: Reinforcement Learning
