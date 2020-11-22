@@ -7,7 +7,7 @@
     <h5><strong><a href="{{ .link }}">{{ .cert }}</a></strong></h5>
     <p class="pl-1">
       {{ .institution }}<br>
-      Issued {{ .start }} &middot; Expires {{ .end }}<br>
+      Issued {{ .start }} &middot; {{ if eq .expiration "Never" }}No Expiration Date{{ else }}Expires {{ .expiration }}{{ end }}<br>
     </p>
     {{ end }}
   </div>
