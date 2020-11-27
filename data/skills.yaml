@@ -32,17 +32,19 @@ data:
         text: gRPC
       - icon: "fas fa-edit"
         text: Microservices Design
+      - icon: "fas fa-brain"
+        text: Reinforcement Learning
   - proficiency: 50
     skills:
       - icon: "fab fa-rust"
         text: Rust
       - icon: "fas fa-project-diagram"
         text: GraphQL
+      - icon: "fas fa-brain"
+        text: Deep Learning
   - proficiency: 30
     skills:
       - icon: "fas fa-robot"
         text: Robotics
       - icon: "fas fa-microchip"
         text: Arduino
-      - icon: "fas fa-brain"
-        text: Reinforcement Learning
