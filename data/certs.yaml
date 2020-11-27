@@ -2,14 +2,9 @@
 title: Certifications
 icon: "fas fa-award"
 data:
-  - cert: "Sample-based Learning Methods"
+  - cert: "Reinforcement Learning Specialization"
     institution: Coursera
-    link: https://www.coursera.org/account/accomplishments/certificate/6BAADAGFVPTJ
-    start: 11/2020
-    expiration: Never
-  - cert: "Fundamentals of Reinforcement Learning"
-    institution: Coursera
-    link: https://www.coursera.org/account/accomplishments/certificate/TSHLXWLN9RWP
+    link: https://www.coursera.org/account/accomplishments/specialization/certificate/ZLH7DTG682RT
     start: 11/2020
     expiration: Never
   - cert: "CKA: Certified Kubernetes Administrator"
