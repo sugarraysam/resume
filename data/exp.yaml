@@ -9,9 +9,10 @@ data:
     end: Present
     months: 4
     description:
-      - Maintain and troubleshoot k3s kubernetes clusters using RKE and Rancher
-      - Develop and deploy HTTP Go microservices on kubernetes, using helm and docker
-      - Monitor kubernetes cluster and applications using Prometheus, Grafana and Splunk
+      - Maintain and troubleshoot kubernetes clusters using RKE and Rancher
+      - Develop and deploy HTTP Go microservices on kubernetes, using Helm and Docker
+      - Pioneer our adoption of Terraform to write our k8s infrastructure as code, defining best practices and contributing guidelines
+      - Wrote and deployed a multi-cluster monitoring solution using the Prometheus operator stack
       - Lead project to integrate k8s monitoring and logging with Splunk ITSI
   # --- DevOps @ Bell ---
   - position: DevOps Engineer

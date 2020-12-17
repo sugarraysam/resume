@@ -12,8 +12,6 @@ data:
         text: Docker
       - icon: "fas fa-code"
         text: Bash
-      - icon: "fab fa-git"
-        text: Git
       - icon: "fab fa-python"
         text: Python
   - proficiency: 80
@@ -22,26 +20,24 @@ data:
         text: Kubernetes
       - icon: "fab fa-gitlab"
         text: Gitlab
-      - icon: "fas fa-code"
-        text: Makefile
+      - icon: "fab fa-watchman-monitoring"
+        text: Monitoring
       - icon: "fab fa-angular"
         text: Ansible
   - proficiency: 70
     skills:
-      - icon: "fas fa-exchange-alt"
-        text: gRPC
+      - icon: "fas fa-project-diagram"
+        text: Terraform
       - icon: "fas fa-edit"
-        text: Microservices Design
+        text: Microservices
       - icon: "fas fa-brain"
-        text: Reinforcement Learning
+        text: Deep RL
   - proficiency: 50
     skills:
       - icon: "fab fa-rust"
         text: Rust
       - icon: "fas fa-project-diagram"
         text: GraphQL
-      - icon: "fas fa-brain"
-        text: Deep Learning
   - proficiency: 30
     skills:
       - icon: "fas fa-robot"
