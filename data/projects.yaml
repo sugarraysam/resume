@@ -5,7 +5,9 @@ ghuser: sugarraysam
 data:
   - repo: archsugar
     description: Bootstrap, provision and fully maintain an high-end modular archlinux system with Go & Ansible
-  - repo: rust-arduino-elegoo
-    description: Rewriting the Elegoo Super Starter Kit tutorials in Rust
+  - repo: udacity-deep-rl
+    description: Implemented DQN with Prioritized Experience Replay and A2C with GAE for continuous control as part of the Deep Reinforcement Learning Nanodegree from Udacity
   - repo: resume
     description: Generate and publish my resume with Hugo, Bootstrap, jQuery, Font Awesome and Github Pages.
+  - repo: rust-arduino-elegoo
+    description: Rewriting the Elegoo Super Starter Kit tutorials in Rust
