@@ -19,25 +19,29 @@ data:
       - icon: "fas fa-network-wired"
         text: Kubernetes
       - icon: "fab fa-gitlab"
-        text: Gitlab
+        text: Gitlab CI/CD
       - icon: "fab fa-watchman-monitoring"
         text: Monitoring
-      - icon: "fab fa-angular"
+      - icon: "fas fa-at"
         text: Ansible
   - proficiency: 70
     skills:
-      - icon: "fas fa-project-diagram"
+      - icon: "fab fa-tumblr"
         text: Terraform
       - icon: "fas fa-edit"
         text: Microservices
-      - icon: "fas fa-brain"
-        text: Deep RL
-  - proficiency: 50
-    skills:
-      - icon: "fab fa-rust"
-        text: Rust
+      - icon: "fas fa-exchange-alt"
+        text: gRPC
       - icon: "fas fa-project-diagram"
         text: GraphQL
+  - proficiency: 50
+    skills:
+      - icon: "fab fa-cuttlefish"
+        text: C++
+      - icon: "fab fa-rust"
+        text: Rust
+      - icon: "fas fa-brain"
+        text: Deep RL
   - proficiency: 30
     skills:
       - icon: "fas fa-robot"

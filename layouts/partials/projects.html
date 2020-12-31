@@ -3,15 +3,14 @@
     <h1><i class="{{ .projects.icon }}"></i> {{ .projects.title }}</h1>
   </span>
   <div class="content">
-    {{ $ghuser := .projects.ghuser }}
     {{ range .projects.data }}
     <h4>
       <!-- Github stars -->
-      <span class="github-button-wrapper"><a class="github-button" href="https://github.com/{{ $ghuser }}/{{ .repo }}"
+      <span class="github-button-wrapper"><a class="github-button" href="https://github.com/{{ .repo }}"
           data-icon="octicon-star" data-show-count="true"
-          aria-label="Star {{ $ghuser }}/{{ .repo }} on GitHub">Star</a></span>
+          aria-label="Star {{ .repo }} on GitHub">Star</a></span>
       <!-- Link to repo -->
-      <a href="https://github.com/{{ $ghuser }}/{{ .repo }}">{{ humanize .repo }}</a>
+      <a href="https://github.com/{{ .repo }}">{{ .name }}</a>
     </h4>
     <p>{{ .description }}</p>
     {{ end }}

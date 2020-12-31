@@ -7,7 +7,7 @@ data:
     company: Epic
     start: 08/2020
     end: Present
-    months: 4
+    months: 5
     description:
       - Maintain and troubleshoot kubernetes clusters using RKE and Rancher
       - Develop and deploy HTTP Go microservices on kubernetes, using Helm and Docker
