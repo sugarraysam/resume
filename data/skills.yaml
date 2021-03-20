@@ -23,7 +23,7 @@ data:
       - icon: "fab fa-watchman-monitoring"
         text: Monitoring
       - icon: "fas fa-at"
-        text: Ansible
+        text: Ansible/Saltstack
   - proficiency: 70
     skills:
       - icon: "fab fa-tumblr"

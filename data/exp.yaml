@@ -2,18 +2,28 @@
 title: Experience
 icon: "fas fa-briefcase"
 data:
+  # --- SRE @ Covariant ---
+  - position: Site Reliability Engineer
+    company: Covariant
+    start: 02/2021
+    end: present
+    months: 1
+    description:
+      - Developed a custom telegraf kubernetes app to collect metrics from airflow jobs over UDP (with PodDisruptionBudget, HorizontalPodAutoscaler and ServiceMonitor)
+      - Refactored salt states to manage non-prod/prod Ubuntu robot stations
+      - Created a very detailed Vagrant-based sandbox to speed-up salt development
+      - Led "Patching Sessions", where we live-upgrade various part of our infrastructure (k8s, salt, etc.)
   # --- DevOps @ Epic ---
   - position: DevOps Engineer
     company: Epic
     start: 08/2020
-    end: Present
-    months: 5
+    end: 02/2021
+    months: 7
     description:
-      - Maintain and troubleshoot kubernetes clusters using RKE and Rancher
-      - Develop and deploy HTTP Go microservices on kubernetes, using Helm and Docker
-      - Pioneer our adoption of Terraform to write our k8s infrastructure as code, defining best practices and contributing guidelines
-      - Wrote and deployed a multi-cluster monitoring solution using the Prometheus operator stack
-      - Lead project to integrate k8s monitoring and logging with Splunk ITSI
+      - Contributed an HTTP middleware library, containing a performant json-logger and default prometheus instrumentation (Golang)
+      - Developed and deployed a risk-evaluation microservice to automate certain Puppet operations (Golang)
+      - Pioneered our adoption of Terraform, by writing example modules, documentation and delivering both a module and a live pipeline
+      - Wrote and deployed a multi-cluster monitoring solution using the Prometheus Operator
   # --- DevOps @ Bell ---
   - position: DevOps Engineer
     company: Bell Canada

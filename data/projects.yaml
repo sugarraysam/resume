@@ -4,19 +4,19 @@ icon: "fas fa-project-diagram"
 data:
   - name: Archsugar
     repo: sugarraysam/archsugar
-    description: Bootstrap, provision and fully maintain an high-end modular archlinux system with Go & Ansible
-  - name: Deep Reinforcement Learning ND
-    repo: sugarraysam/udacity-deep-rl
-    description: Implemented DQN with Prioritized Experience Replay and A2C with GAE for continuous control as part of the Deep Reinforcement Learning Nanodegree from Udacity
+    description: Default dotfiles accompanying archusgar-cli. Your ArchLinux Workstation as Code.
+  - name: Archsugar-cli
+    repo: sugarraysam/archsugar-cli
+    description: Golang CLI /w cobra for archsugar project
   - name: CoderPro in Python
     repo: sugarraysam/coderpro-py
     description: Solving popular interview questions in Python, with space and time complexity analysis.
+  - name: CoderPro in Go
+    repo: sugarraysam/coderpro-go
+    description: Solving popular interview questions in Golang, with space and time complexity analysis.
   - name: CoderPro in C++
     repo: sugarraysam/coderpro-cpp
     description: Solving popular interview questions in C++, with space and time complexity analysis.
   - name: My Online Resume
     repo: sugarraysam/resume
     description: Generate and publish my resume with Hugo, Bootstrap, jQuery, Font Awesome and Github Pages.
-  - name: Rust on Arduino
-    repo: sugarraysam/rust-arduino-elegoo
-    description: Rewriting the Elegoo Super Starter Kit tutorials in Rust
