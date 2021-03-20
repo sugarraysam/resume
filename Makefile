@@ -1,14 +1,16 @@
-export HUGO_VERSION := 0.75.1
+TARGETS := dwl install dev deploy
+.PHONY: $(TARGETS)
 
-.PHONY: install
-install:
+export HUGO_VERSION := 0.81.0
+
+dwl:
 	@curl -LO https://github.com/gohugoio/hugo/releases/download/v$(HUGO_VERSION)/hugo_$(HUGO_VERSION)_Linux-64bit.deb
+
+install: dwl
 	@sudo dpkg -i hugo_$(HUGO_VERSION)_Linux-64bit.deb
 
-.PHONY: dev
 dev:
 	@hugo server --noHTTPCache --ignoreCache
 
-.PHONY: deploy
 deploy:
 	@./scripts/deploy-gh-pages.sh
